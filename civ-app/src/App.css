@@ -1,0 +1,335 @@
+.App {
+  text-align: center;
+}
+
+.header{
+  padding :50px 0;
+  text-align: center;
+  background: black;
+}
+
+#mainDiv{
+  overflow:hidden;
+}
+
+#columnA{
+  width:316px;
+  float:left;
+}
+#columnB{
+  width:316px;
+  overflow:hidden;
+  float: left;
+}
+
+#columnC{
+  padding:5px;
+  width:316px;
+  overflow:hidden;
+  float:left;
+}
+#columnD{
+  padding:5px;
+  width:316px;
+  overflow:hidden;
+  float:left;
+}
+
+#farmDiv{
+  padding: 5px;
+  font-weight: 400;
+  height: 330px;
+  width: 300px;
+  overflow:hidden;
+  /*background-color: rgb(76, 232, 227);*/
+}
+#seedDiv{
+  
+  font-weight: 400;
+  height: 150px;
+  width: 50%;
+  position:relative;
+  float:left;
+  overflow-y: scroll;
+  
+}
+
+#cropDiv{
+  font-weight: 400;
+  height: 150px;
+  width: 50%;
+  overflow:hidden;
+  overflow-y: scroll;
+}
+#farmerDiv{
+  font-weight: 400;
+  height: 120px;
+  width: 100%;
+  overflow-y: scroll;
+}
+#traderDiv{
+  font-weight: 400;
+  height: 60px;
+  width: 100%;
+}
+
+#livestockDiv{
+  padding: 5px;
+  font-weight: 400;
+  height: 370px;
+  width: 300px;
+  
+  /*background-color: rgb(170, 142, 93);*/
+}
+#animalsDiv{
+  font-weight: 400;
+  height: 150px;
+  width: 50%;
+  overflow-y: scroll;
+  position:relative;
+  float:left;
+  border: ridge;
+}
+#livestockConfigDiv{
+  font-weight: 400;
+  height: 140px;
+  width: 140px;
+  border:solid 1px;
+  float:right;
+  /*background-image: url(./images/land2.jpg);*/
+  background-color: rgb(29, 175, 29);
+}
+#herdersDiv{
+  font-weight: 400;
+  height: 120px;
+  width: 100%;
+  overflow-y: scroll;
+  border:ridge;
+}
+#livestockTraderDiv{
+  font-weight: 400;
+  height: 60px;
+  width: 100%;
+}
+#miningDiv{
+  padding: 5px;
+  font-weight: 400;
+  height: 370px;
+  width: 300px;
+}
+#materialsDiv{
+  font-weight: 400;
+  height: 150px;
+  width: 100%;
+  overflow-y: scroll;
+  position:relative;
+  float:left;
+}
+#foodDiv{
+  font-weight: 400;
+  height: 200px;
+  width: 100%;
+  overflow-y: scroll;
+  
+}
+#scienceDiv{
+  font-weight: 400;
+  height: 300px;
+  width: 100%;
+  overflow-y: scroll;
+  
+}
+#projectDiv{
+  font-weight: 400;
+  height: 370px;
+  width: 100%;
+  
+}
+#pDiv{
+  font-weight: 400;
+  height: 90%;
+  width: 100%;
+  overflow-y: scroll;
+}
+#builderDiv{
+  font-weight: 400;
+  height: 70px;
+  width: 100%;
+
+}
+#buildingDiv{
+  font-weight: 400;
+  height: 370px;
+  width: 100%;
+  overflow-y: scroll;
+  overflow-x: scroll;
+}
+#militaryDiv{
+  font-weight: 400;
+  height: 370px;
+  width: 100%;
+}
+#militaryUnitsDiv{
+  font-weight: 400;
+  height: 300px;
+  width: 100%;
+  overflow: hidden;
+  overflow-y: scroll;
+  overflow-x: scroll;
+}
+#warDiv{
+  font-weight: 400;
+  height: 370px;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.scienceButton{
+  border: 1px solid black;
+  border-radius: 0px;
+  font-variant-numeric: tabular-nums;
+  background-color: rgb(190, 190, 190);
+  font-size: 11px;
+  height: 50px;
+  width: 100%;
+  margin-bottom: 3px;
+  /*background-image: url(./images/science2.jpg);*/
+}
+.improvementButton{
+  border: 1px solid black;
+  border-radius: 2px;
+  font-variant-numeric: tabular-nums;
+  background: -webkit-linear-gradient(top, white, gray);
+  background-color: rgb(191, 191, 191);
+  font-size: 11px;
+  width: 80%;
+}
+
+.buySeed{
+  border: 1px solid black;
+  border-radius: 2px;
+  margin-top: 2px;
+  font-variant-numeric: tabular-nums;
+  background: -webkit-linear-gradient(top, white, gray);
+  background-color: rgb(191, 191, 191);
+  font-size: 11px;
+  width: 75px;
+  height:20px;
+  padding:0px,
+}
+
+.growCrop{
+  border: 1px solid black;
+  border-radius: 2px;
+  font-variant-numeric: tabular-nums;
+  background: -webkit-linear-gradient(top, white, gray);
+  background-color: rgb(191, 191, 191);
+  font-size: 11px;
+  width: 80px;
+}
+
+.increment{
+  border: 1px solid black;
+  border-radius: 2px;
+  font-variant-numeric: tabular-nums;
+  background: -webkit-linear-gradient(top, white, gray);
+  background-color: rgb(191, 191, 191);
+  font-size: 11px;
+  width: 18px;
+  height: 18px;
+  margin-top:2px;
+  padding: 0px;
+}
+.switch{
+  border: 1px solid black;
+  border-radius: 2px;
+  font-variant-numeric: tabular-nums;
+  background: -webkit-linear-gradient(top, white, gray);
+  background-color: rgb(191, 191, 191);
+  font-size: 11px;
+  width: 50px;
+  height: 20px;
+  margin-top:2px;
+  padding: 0px;
+}
+
+.buildingButton{
+  border: 1px solid black;
+  border-radius: 2px;
+  font-variant-numeric: tabular-nums;
+  background: -webkit-linear-gradient(top, white, gray);
+  background-color: rgb(191, 191, 191);
+  font-size: 11px;
+  width: 100px;
+}
+.buildingButton:hover a{
+  display:block;
+  list-style-type: none;
+  padding-left: 0;
+  padding-top:5px;
+}
+
+.buyUnitButton{
+  border: 1px solid black;
+  border-radius: 2px;
+  font-variant-numeric: tabular-nums;
+  background: -webkit-linear-gradient(top, white, gray);
+  background-color: rgb(191, 191, 191);
+  font-size: 11px;
+  width: 100px;
+
+}
+
+.buyUnitButton:hover ul{
+  display:block;
+  list-style-type: none;
+  padding-left: 0;
+}
+.ghostLabel{
+  display: none;
+}
+.searchWarButton{
+  border: 1px solid black;
+  border-radius: 2px;
+  font-variant-numeric: tabular-nums;
+  background: -webkit-linear-gradient(top, white, gray);
+  background-color: rgb(191, 191, 191);
+  font-size: 11px;
+  width: 100%;
+  height: 50px;
+}
+
+.App-logo {
+  height: vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
